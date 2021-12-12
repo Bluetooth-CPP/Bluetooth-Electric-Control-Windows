@@ -15,5 +15,6 @@ Bluetooth Windows Functions
   
 `void send(string text)`
   
-`string recv()`
+`void recv(int pins[])`
 
+You input an array and the function will set a value or "pin" of the array to the voltage input value of a microcontroller pin.
